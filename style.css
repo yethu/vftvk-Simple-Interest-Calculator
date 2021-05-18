@@ -7,13 +7,23 @@ body {
 h1 {
   color: grey;
   font-family: verdana;
+  text-align: center;
+}
+
+table {
+  width: 400px;
+  margin: 0 auto;
 }
 
 .maindiv {
   background-color: white;
   color: black;
-  width: 300px;
+  width: 500px;
   padding: 20px;
   border-radius: 25px;
-  align: center;
+  margin: 0 auto;
+}
+
+.highlight {
+  background-color: yellow;
 }
