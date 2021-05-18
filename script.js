@@ -9,6 +9,7 @@ function compute() {
   if (principal <= 0) {
     alert('Enter a positive number'); // display alert
     principalElm.focus(); // input focus
+    return; // return the function early since validation failed
   }
 
   var rate = document.getElementById('rate').value;
